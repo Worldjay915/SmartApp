@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="物流公司"
+        android:id="@+id/et_company"
+        android:text="sto"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="物流公司"
+        android:id="@+id/et_number"
+        android:text="3326339642045"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_query"
+        android:background="@drawable/button_bg"
+        android:text="查询"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mListView"
+        android:layout_weight="1"
+        android:divider="@null"
+        >
+
+
+    </ListView>
+
+</LinearLayout>

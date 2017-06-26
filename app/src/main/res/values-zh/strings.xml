@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dog</string>
+    <string name="text_setting">设置</string>
+    <string name="text_login">登陆</string>
+    <string name="text_register">注册</string>
+    <string name="text_modify">修改密码</string>
+    <string name="text_delivery">快递查询</string>
+    <string name="text_phone">归属地查询</string>
+    <string name="text_about">关于</string>
+    <string name="text_location">定位</string>
+    <string name="text_update">更新</string>
+</resources>
